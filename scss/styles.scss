@@ -34,7 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+//$base-color: #3498db;
+$base-color: #380B6F;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -350,14 +351,14 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/back1.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
 }
 
 #lead-content {
-    position: absolute;
+    position: relative;
     z-index: 10;
     top: 50%;
     left: 50%;
@@ -378,7 +379,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: #EAEAEA;
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -669,6 +670,7 @@ footer {
     }
 
     p {
+        text-align: left;
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
@@ -705,9 +707,10 @@ footer {
 
     ul {
         display: block;
-        margin: 0 auto;
+        margin: auto ;
         padding: 0;
         max-width: 800px;
+        text-align: left;
     }
 
     li {
@@ -719,6 +722,7 @@ footer {
         list-style: none;
         cursor: default;
         font-size: 1.2em;
+        text-align: left;
     }
 }
 
@@ -727,6 +731,13 @@ footer {
     ----- 10. Contact Styles -----
     -------------------------------
 */
+.fa{
+color: yellow;
+}
+
+.fa-flag:hover {
+    color: orange;
+}
 
 #contact {
     padding: 50px 15px;
