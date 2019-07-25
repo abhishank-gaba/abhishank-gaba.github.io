@@ -1,3 +1,2 @@
-hellow world 
-how you doing
+First Iteration of my official website
 
